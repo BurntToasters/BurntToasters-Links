@@ -3,81 +3,7 @@
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>BurntToasters (ERR: 404)</title>
-    <style>
-        a:link {
-          color: rgb(255, 255, 255);
-          background-color: transparent;
-          text-decoration: none;
-        }
-        a:visited {
-          color: rgb(255, 255, 255);
-          background-color: transparent;
-          text-decoration: none;
-        }
-        a:hover {
-          color: rgb(209, 209, 209);
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        a:active {
-          color: rgb(236, 236, 236);
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        div.spacer
-                {
-    font-size: 0; 
-    height: 300px;
-    line-height: 0;
-                }
-
-                div.spacer2
-                {
-    font-size: 0; 
-    height: 1px;
-    line-height: 0;
-                }
-
-                .button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 24px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-        </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-image: url('/assets/background.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
 <h1 style="text-align:center;"><a href="https://burnttoasters.com"><img src="/assets/burnt.png" height="20%"></a></h1>
@@ -86,23 +12,26 @@
     <p style="text-align:center; color: white; font-family: arial;">ⓘ Hi this page does not exist on links.burnttoasters.com. You have been brought to a mirrored page of the homepage. <a style="text-align: center; font-family: arial; color: aqua;" href="https://links.burnttoasters.com">Dismiss</a></p>
     <div class="spacer2"></div>
     <div style="text-align:center;">
-    <button class="button button" style="vertical-align:middle"><span><a href="https://www.youtube.com/ToasterPlays" target="_blank">YouTube</a></span></button>
-    </div>
-    <div style="text-align:center;">
-      <button class="button button" style="vertical-align:middle"><span><a href="https://burnttoasters.com" target="_blank">My Website</a></span></button>
+      <button class="buttonyt button" style="vertical-align:middle"><span><a href="https://www.youtube.com/ToasterPlays" target="_blank">YouTube</a></span></button>
       </div>
-    <div style="text-align:center;">
-        <button class="button button" style="vertical-align:middle"><span><a href="https://twitter.com/ToasterPlays" target="_blank">Twitter</a></span></button>
+      <div style="text-align:center;">
+        <button class="button button" style="vertical-align:middle"><span><a href="https://burnttoasters.com" target="_blank">My Website</a></span></button>
         </div>
         <div style="text-align:center;">
-          <button class="button button" style="vertical-align:middle"><span><a href="https://mas.to/@burnt" target="_blank">Mastodon</a></span></button>
+          <button class="buttonbsky button" style="vertical-align:middle"><span><a href="https://bsky.app/profile/burnttoasters.bsky.social" target="_blank">BlueSky</a></span></button>
           </div>
-    <div style="text-align:center;">
-            <button class="button button" style="vertical-align:middle"><span><a href="https://links.burnttoasters.com/external/discord">Discord</a></span></button>
+        <div style="text-align:center;">
+          <button class="buttontwt button" style="vertical-align:middle"><span><a href="https://twitter.com/ToasterPlays" target="_blank">Twitter</a></span></button>
+          </div>
+        <div style="text-align:center;">
+            <button class="buttonmas button" style="vertical-align:middle"><span><a href="https://mas.to/@burnt" target="_blank">Mastodon</a></span></button>
             </div>
-    <div style="text-align:center;">
-            <button class="button button" style="vertical-align:middle"><span><a style="color:rgb(208, 208, 255)" href="https://links.burnttoasters.com/about">ⓘ About</a></span></button>
-            </div>
+      <div style="text-align:center;">
+              <button class="buttondisc button" style="vertical-align:middle"><span><a href="https://links.burnttoasters.com/external/discord">Discord</a></span></button>
+              </div>
+      <div style="text-align:center;">
+              <button class="buttonAbout button" style="vertical-align:middle"><span><a href="https://links.burnttoasters.com/about">ⓘ About</a></span></button>
+              </div>
 <!-- <p style="text-align: center; font-family:arial; color:aquamarine;"><a style="text-align: center; font-family:arial; color:aquamarine;" href="https://burnttoasters.com/about">About</a></p> !-->
 </body>
 </html>
