@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://links.burnttoasters.com</loc>
-    <lastmod>2024-09-13</lastmod>
+    <lastmod>2024-10-7</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://links.burnttoasters.com/index</loc>
-    <lastmod>2024-09-13</lastmod>
+    <lastmod>2024-10-7</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>https://links.burnttoasters.com/about</loc>
+    <lastmod>2024-10-7</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    <url>
+    <loc>https://links.burnttoasters.com/contact</loc>
+    <lastmod>2024-10-7</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
