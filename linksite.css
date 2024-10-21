@@ -38,7 +38,7 @@ div.spacer2 {
     text-align: center;
     font-size: 24px;
     padding: 20px;
-    width: 210px;
+    width: 220px;
     backdrop-filter: blur(10px); /* Blurry background */
     transition: all 0.3s ease; /* Smooth transition for hover */
     cursor: pointer;
@@ -153,6 +153,14 @@ body {
 
 .icon {
     width: 25px;
+    height: 25px;
+    margin-right: 4px;
+    vertical-align: middle;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.icon-nonUniform {
+    width: 30px;
     height: 25px;
     margin-right: 4px;
     vertical-align: middle;
